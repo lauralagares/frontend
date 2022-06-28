@@ -11,7 +11,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height: '500px', width: '100%', objectFit: 'cover'}}
+          style={{height: '600px', width: '100%', objectFit: 'cover'}}
           src={FirstImg}
           alt="First slide"
         />
@@ -20,7 +20,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height: '500px', width: '100%', objectFit: 'cover'}}
+          style={{height: '600px', width: '100%', objectFit: 'cover'}}
           src={SecondImg}
           alt="Second slide"
         />
@@ -29,7 +29,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height: '500px', width: '100%', objectFit: 'cover'}}
+          style={{height: '600px', width: '100%', objectFit: 'cover'}}
           src={ThirdImg}
           alt="Third slide"
         />
@@ -39,7 +39,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height: '500px', width: '100%', objectFit: 'cover'}}
+          style={{height: '600px', width: '100%', objectFit: 'cover'}}
           src={FourthImg}
           alt="Third slide"
         />
@@ -48,7 +48,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height: '500px', width: '100%', objectFit: 'cover'}}
+          style={{height: '600px', width: '100%', objectFit: 'cover'}}
           src={FifthImg}
           alt="Third slide"
         />
