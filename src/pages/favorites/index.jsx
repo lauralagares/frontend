@@ -31,7 +31,7 @@ function Favorites() {
   };
 
   const getAllFavorites = async () => { 
-    const r = await axios.get(`http://localhost:3001/favorites?id=${id}`)
+    const r = await axios.get(`${process.env.REACT_APP_API_URL}/favorites?id=${id}`)
     const tracksId = r.data.tracks.join(',');
     const fav = await axios.get(`https://api.spotify.com/v1/tracks?ids=${tracksId}`, {
       headers: {
@@ -54,7 +54,7 @@ const deleteFavorites = (idTrack) => {
       name: id,
       track: idTrack,
   }
-  axios.delete(`http://localhost:3001/favorites?name=${newDelete.name}&track=${newDelete.track}`)
+  axios.delete(`${process.env.REACT_APP_API_URL}/favorites?name=${newDelete.name}&track=${newDelete.track}`)
       .then(r => {
           console.log(r)
           setreload(!reload);

@@ -18,7 +18,7 @@ function TrackSearchResult({ track, chooseTrack }) {
             name: id,
             track: track.id,
         }
-        axios.post('http://localhost:3001/favorites', newFavorite)
+        axios.post(`${process.env.REACT_APP_API_URL}/favorites`, newFavorite)
             .then(r => {
                 console.log(r)
             })
