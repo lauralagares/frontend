@@ -1,8 +1,8 @@
 {
     "description" : {
-        "login": "Log in with your Spotify account",
-        "playlist1": "Create playlists with your favorite songs",
-        "lyrics1": "Select the karaoke mode to see the lyrics of the songs"
+        "privacy": "Privacy policy",
+        "terms": "Terms & Conditions",
+        "cookies": "Cookies"
     },
 
     "login": {
