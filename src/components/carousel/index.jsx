@@ -11,7 +11,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height: '500px', width: '100%', objectFit: 'cover'}}
+          style={{height: '475px', width: '100%', objectFit: 'cover'}}
           src={FirstImg}
           alt="First slide"
         />
