@@ -101,7 +101,7 @@ function Dashboard() {
 <Container 
 className={`d-flex flex-column py-2  fs-5 bg-${theme} text-${fontColor}`}
 fluid
-style={{height: '92vh'}}>
+style={{height: '91vh'}}>
     <Form.Control
     type='search'
     placeholder={t("input.title")}

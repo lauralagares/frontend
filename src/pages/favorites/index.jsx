@@ -65,7 +65,7 @@ const deleteFavorites = (idTrack) => {
 
     <Container fluid
       className={` d-flex flex-column py-2 fs-5 bg-${theme} text-${fontColor}`}
-      style={{ height: '92vh' }}>
+      style={{ height: '91vh' }}>
       <div className='flex-grow-1 my-2' style={{ overflowY: 'auto' }}>
         {favorites.map((track) =>
             <TrackFavorites

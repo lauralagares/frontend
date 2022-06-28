@@ -19,15 +19,15 @@ function Description() {
     style={{justifyContent: 'space-between', alignItems: 'flex-end'}}>
       <Link
        className='link'
-       to="/privacy"> Privacy policy
+       to="/privacy"> {t("description.privacy")}
       </Link>
       <Link
        className='link'
-       to="/terms"> Terms & Conditions
+       to="/terms"> {t("description.terms")}
       </Link>
       <Link
        className='link'
-       to="/cookies"> Cookies
+       to="/cookies"> {t("description.cookies")}
       </Link>
 
     </Container>
