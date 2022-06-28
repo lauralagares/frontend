@@ -1,0 +1,17 @@
+{
+    "description" : {
+        "login": "Inicia sesión con tu cuenta de Spotify",
+        "playlist1": "Crea listas de reproducción con tus canciones favoritas",
+        "lyrics1": "Selecciona el modo karaoke para ver las letras de las canciones"
+    },
+
+    "login": {
+        "title": "Inicia sesión con Spotify",
+        "logout": "Cerrar sesión"
+    }, 
+
+    "input":{
+        "title": "Busca canciones"
+    }
+
+}

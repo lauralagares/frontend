@@ -1,0 +1,16 @@
+{
+    "description" : {
+        "login": "Log in with your Spotify account",
+        "playlist1": "Create playlists with your favorite songs",
+        "lyrics1": "Select the karaoke mode to see the lyrics of the songs"
+    },
+
+    "login": {
+        "title": "Sign in with Spotify",
+        "logout": "Log out"
+    },
+
+    "input":{
+        "title": "Search songs"
+    }
+}

@@ -1,0 +1,25 @@
+.play-icon{
+    width: 1.7rem;
+    height: 1.7rem;
+
+    transition: 0.2s all;
+}
+
+.play-icon:active{
+
+    transform: scale(0.7);
+
+}
+
+.trash-icon{
+    width: 2rem;
+    height: 2rem;
+
+    transition: 0.2s all;
+}
+
+.trash-icon:active{
+
+    transform: scale(0.7);
+
+}

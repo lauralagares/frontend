@@ -1,0 +1,26 @@
+.play-icon{
+    width: 1.7rem;
+    height: 1.7rem;
+
+    transition: 0.2s all;
+}
+
+.play-icon:active{
+
+    transform: scale(0.7);
+
+}
+
+.heart-icon{
+    width: 1.7rem;
+    height: 1.7rem;
+    color: rgba(255,0,118,1);
+
+    transition: 0.2s all;
+}
+
+.heart-icon:active{
+
+    transform: scale(0.7);
+
+}
