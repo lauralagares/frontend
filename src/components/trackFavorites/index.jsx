@@ -35,6 +35,7 @@ function TrackFavorites({ track, chooseTrack, deleteFavorites }) {
 
       <div 
         onClick={handleDelete}
+        style={{ cursor: 'pointer' }}
         className='me-4'><FcFullTrash className='trash-icon'></FcFullTrash></div>
       </div>
 
