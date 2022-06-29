@@ -16,7 +16,7 @@ function Description() {
     </Container>
 
     <Container className='d-flex mb-2'
-    style={{justifyContent: 'center', alignItems: 'flex-end', flexDirection: 'column'}}>
+    style={{justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop:'2rem'}}>
       <Link
        className='link'
        to="/privacy"> {t("description.privacy")}
